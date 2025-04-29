@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+/*余白の初期化*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/*ページ全体の設定*/
+body{
+	background-color: #DDFF99;
+}
+
+/*本文の設定*/
+p.honbun{
+	margin: 0px 0px 15px;
+	font-size: 12pt;
+	line-height: 1.7;
+}
+
+
+/*ページ内容全体の設定*/
+#container{
+	width: 900px;
+	margin: 0px auto;
+	background-color: #FFFFFF;
+}
+
+
+/*冒頭部分全体の設定*/
+header{
+	width: 900px;
+	height: 200px;
+	background-image: url("pekomari_1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 30%;
+}
+
+
+/*タイトルの設定*/
+#title-words{
+	padding-top: 115px;
+	padding-right: 20px;
+	text-align: right;
+	color: #000000;
+	font-size: 28pt;
+	font-weight: bold;
+}
+
+
+/*サブタイトルの設定*/
+#subtitle-words{
+	padding-top: 4px;
+	padding-right: 20px;
+	text-align: right;
+	color: #000000;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+
+/*サイドメニュー全体の設定*/
+aside{
+	width: 200px;
+	height: 5640px;
+	float: left;
+	background-color: #333333;
+}
+
+
+/*サイドメニュー内のもくじ全体の設定*/
+nav{}
+
+
+/*サイドメニュー内のリストの設定*/
+nav ul{
+	list-style-type: none;
+}
+
+
+/*サイドメニュー内の項目の設定*/
+nav a{
+	text-decoration: none;
+	font-size: 11pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	display: block;
+	height: 25px;
+	padding: 12px 0px 3px 10px;
+	background-color: #333333;
+	border-top: solid 1px #FFFFFF;
+}
+
+
+/*上記（サブ）*/
+li.sub a{
+	font-size: 10pt;
+	font-weight: normal;
+	height: 20px;
+	padding: 10px 0px 3px 30px;
+	border-top: dotted 1px #999999;
+}
+
+
+/*上記（最後）*/
+a.nav-last{
+	border-bottom: solid 1px #FFFFFF
+}
+
+
+/*マウスオーバーで変色（赤）*/
+nav a:hover{
+	background-color: #FF0000;
+}
+
+
+/*メイン全体の設定*/
+#main{
+	width: 660px;
+	height: 5600px;
+	padding: 20px;
+	float: left;
+	background-color: #FFFFFF;
+}
+
+
+/*各テーマの見出し設定*/
+h1{
+	margin-top: 15px 0px 15px;
+	padding: 7px 0px 5px;
+	background-color: #FFFFCC;
+	border-radius: 10px;
+	font-size: 16pt;
+	text-align: center;
+}
+
+
+/*小見出し設定*/
+h2{
+	margin: 30px 0px 10px;
+	padding: 0px 0px 3px;
+	border-bottom: dashed 2px #FF9933;
+	font-size: 14pt;
+}
+
+
+/*小見出し色違い*/
+h2.game{
+	border-bottom: dashed 2px #3399FF;
+}
+
+
+/*小見出し色違い②*/
+h2.atogaki{
+	border-bottom: dashed 2px #336633;
+}
+
+
+/*目次設定*/
+ul.mokuji{
+	margin-top: 15pt;
+	margin-bottom: 15pt;
+	margin-left: 19pt;
+	font-size: 15pt;
+	line-height: 1.7;
+}
+
+
+/*画像に影つけて左寄せ*/
+img.f-left{
+	float: left;
+	margin-right: 15px;
+	box-shadow: 3px 3px 10px #666666;
+	border: none;
+}
+
+
+/*画像サイズ調整*/
+img.best-size{
+	width: 200px;
+}
+
+
+
+
+
+
+
+
+
